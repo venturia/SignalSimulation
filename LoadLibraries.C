@@ -1,0 +1,11 @@
+{
+gSystem->CompileMacro("Mobility.C","k");
+gSystem->CompileMacro("Pulse.C","k");
+gSystem->CompileMacro("Sensor.C","k");
+gSystem->CompileMacro("Drift.C","k");
+gSystem->CompileMacro("Efield.C","k");
+gSystem->CompileMacro("EfieldTotal.h","k");
+gSystem->CompileMacro("EfieldAlone.h","k");
+gSystem->CompileMacro("Signal.C","k");
+gSystem->CompileMacro("SignalFromFile.C","k");
+}
