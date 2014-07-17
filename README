@@ -1,0 +1,29 @@
+Parameters
+
+* Sensor class
+  - thickness
+  - vdepl
+  - vbias
+
+* Mobility class
+  - four parameters
+  - default is for holes
+
+* EfieldTotal/EfieldAlone class (weighting field)
+  - thickness (2nd) tib and tob
+  - pitch (3rd) ?? 100e-6 122e-6 183e-6
+  - width (4th) ?? always 10e-6
+  - Weight() is the function whose parameter 0 (??) has to be set 10e-6, 1e-6, 0.1e-6, 0.01e-6 0.001e-6 
+  - mode ?? always Efield::Depth
+
+* Drift class
+  - Mobility
+  - Sensor
+
+* Signal class
+  - title
+  - Sensor
+  - Drift for holes
+  - Drift for electrons
+  - Efield
+  - Pulse
