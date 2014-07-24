@@ -1,4 +1,6 @@
 #include <fstream>
+#include <iostream>
+#include <iomanip>
 #include "TFile.h"
 #include "TF1.h"
 #include "TF2.h"
@@ -228,6 +230,17 @@ void SignalFromFile::printSummary(ostream& out) const {
   out << "barycenter at signal maximum  " << getBarycenterAtMax() << " m " << endl;
   out << "slope at signal maximum  (+/- 5nsec)  " << getSlopeAtMax(5e-9)/1000. << " um/nsec " << endl;
   out << "slope at signal maximum  (+/- 2nsec)  " << getSlopeAtMax(2e-9)/1000. << " um/nsec " << endl;
+  
+}
+
+void SignalFromFile::printSummaryTableRow(ostream& out) const {
+  
+  out << fixed;
+  out << _prefix.c_str() << " " << _file->GetName();
+  out << " " << setw(7) << setprecision(3) << getMaxSignal()*1000000000.;
+  out << " " << setw(9) << setprecision(4) << getBarycenterAtMax()*1000000.;
+  out << " " << setw(8) << setprecision(4) << getSlopeAtMax(5e-9)/1000.;
+  out << " " << setw(8) << setprecision(4) << getSlopeAtMax(2e-9)/1000. << endl;
   
 }
 

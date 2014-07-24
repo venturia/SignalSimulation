@@ -44,6 +44,7 @@ class SignalFromFile {
   TObjArray* getMaxSignalBarycenterLines() const;
 
   void printSummary(ostream& out) const;
+  void printSummaryTableRow(ostream& out) const;
 
  private:
 
