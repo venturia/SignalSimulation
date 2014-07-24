@@ -1,9 +1,9 @@
 #!/bin/tcsh
 
 #bsub -q cmscaf1nw -J sig batch_script.sh
-bsub -q cmscaf1nw -J sig7 batch_script.sh
-bsub -q cmscaf1nw -J sig8 batch_script.sh
-bsub -q cmscaf1nw -J sig9 batch_script.sh
+#bsub -q cmscaf1nw -J sig7 batch_script.sh
+#bsub -q cmscaf1nw -J sig8 batch_script.sh
+#bsub -q cmscaf1nw -J sig9 batch_script.sh
 #bsub -q cmscaf1nw -J sig2 batch_script.sh
 #bsub -q cmscaf1nw -J sig3 batch_script.sh
 #bsub -q cmscaf1nw -J sig4 batch_script.sh
@@ -12,9 +12,9 @@ bsub -q cmscaf1nw -J sig9 batch_script.sh
 #bsub -q cmscaf1nd -J sigdelta batch_script.sh
 
 #bsub -q cmscaf1nw -J signodepl batch_script.sh
-bsub -q cmscaf1nw -J sig7nodepl batch_script.sh
-bsub -q cmscaf1nw -J sig8nodepl batch_script.sh
-bsub -q cmscaf1nw -J sig9nodepl batch_script.sh
+#bsub -q cmscaf1nw -J sig7nodepl batch_script.sh
+#bsub -q cmscaf1nw -J sig8nodepl batch_script.sh
+#bsub -q cmscaf1nw -J sig9nodepl batch_script.sh
 #bsub -q cmscaf1nw -J sig2nodepl batch_script.sh
 #bsub -q cmscaf1nw -J sig3nodepl batch_script.sh
 #bsub -q cmscaf1nw -J sig4nodepl batch_script.sh
@@ -23,9 +23,9 @@ bsub -q cmscaf1nw -J sig9nodepl batch_script.sh
 #bsub -q cmscaf1nd -J sigdeltanodepl batch_script.sh
 
 #bsub -q cmscaf1nw -J peaksig batch_script.sh
-bsub -q cmscaf1nw -J peaksig7 batch_script.sh
-bsub -q cmscaf1nw -J peaksig8 batch_script.sh
-bsub -q cmscaf1nw -J peaksig9 batch_script.sh
+#bsub -q cmscaf1nw -J peaksig7 batch_script.sh
+#bsub -q cmscaf1nw -J peaksig8 batch_script.sh
+#bsub -q cmscaf1nw -J peaksig9 batch_script.sh
 #bsub -q cmscaf1nw -J peaksig2 batch_script.sh
 #bsub -q cmscaf1nw -J peaksig3 batch_script.sh
 #bsub -q cmscaf1nw -J peaksig4 batch_script.sh
@@ -34,12 +34,169 @@ bsub -q cmscaf1nw -J peaksig9 batch_script.sh
 #bsub -q cmscaf1nd -J peaksigdelta batch_script.sh
 
 #bsub -q cmscaf1nw -J peaksignodepl batch_script.sh
-bsub -q cmscaf1nw -J peaksig7nodepl batch_script.sh
-bsub -q cmscaf1nw -J peaksig8nodepl batch_script.sh
-bsub -q cmscaf1nw -J peaksig9nodepl batch_script.sh
+#bsub -q cmscaf1nw -J peaksig7nodepl batch_script.sh
+#bsub -q cmscaf1nw -J peaksig8nodepl batch_script.sh
+#bsub -q cmscaf1nw -J peaksig9nodepl batch_script.sh
 #bsub -q cmscaf1nw -J peaksig2nodepl batch_script.sh
 #bsub -q cmscaf1nw -J peaksig3nodepl batch_script.sh
 #bsub -q cmscaf1nw -J peaksig4nodepl batch_script.sh
 #bsub -q cmscaf1nw -J peaksig5nodepl batch_script.sh
 #bsub -q cmscaf1nw -J peaksig6nodepl batch_script.sh
 #bsub -q cmscaf1nd -J peaksigdeltanodepl batch_script.sh
+
+#bsub -q cmscaf1nw -J tssigdeco0 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeco1 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeco2 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeco3 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeco4 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeco5 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeco6 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeco7 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeco8 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeco9 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeco10 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeco11 batch_script.sh
+
+#bsub -q cmscaf1nw -J tssigpeak0 batch_script.sh
+#bsub -q cmscaf1nw -J tssigpeak1 batch_script.sh
+#bsub -q cmscaf1nw -J tssigpeak2 batch_script.sh
+#bsub -q cmscaf1nw -J tssigpeak3 batch_script.sh
+#bsub -q cmscaf1nw -J tssigpeak4 batch_script.sh
+#bsub -q cmscaf1nw -J tssigpeak5 batch_script.sh
+#bsub -q cmscaf1nw -J tssigpeak6 batch_script.sh
+#bsub -q cmscaf1nw -J tssigpeak7 batch_script.sh
+#bsub -q cmscaf1nw -J tssigpeak8 batch_script.sh
+#bsub -q cmscaf1nw -J tssigpeak9 batch_script.sh
+#bsub -q cmscaf1nw -J tssigpeak10 batch_script.sh
+#bsub -q cmscaf1nw -J tssigpeak11 batch_script.sh
+
+#bsub -q cmscaf1nw -J tssignodepldeco0 batch_script.sh
+#bsub -q cmscaf1nw -J tssignodepldeco1 batch_script.sh
+#bsub -q cmscaf1nw -J tssignodepldeco2 batch_script.sh
+#bsub -q cmscaf1nw -J tssignodepldeco3 batch_script.sh
+#bsub -q cmscaf1nw -J tssignodepldeco4 batch_script.sh
+#bsub -q cmscaf1nw -J tssignodepldeco5 batch_script.sh
+#bsub -q cmscaf1nw -J tssignodepldeco6 batch_script.sh
+#bsub -q cmscaf1nw -J tssignodepldeco7 batch_script.sh
+#bsub -q cmscaf1nw -J tssignodepldeco8 batch_script.sh
+#bsub -q cmscaf1nw -J tssignodepldeco9 batch_script.sh
+#bsub -q cmscaf1nw -J tssignodepldeco10 batch_script.sh
+#bsub -q cmscaf1nw -J tssignodepldeco11 batch_script.sh
+
+#bsub -q cmscaf1nw -J tssignodeplpeak0 batch_script.sh
+#bsub -q cmscaf1nw -J tssignodeplpeak1 batch_script.sh
+#bsub -q cmscaf1nw -J tssignodeplpeak2 batch_script.sh
+#bsub -q cmscaf1nw -J tssignodeplpeak3 batch_script.sh
+#bsub -q cmscaf1nw -J tssignodeplpeak4 batch_script.sh
+#bsub -q cmscaf1nw -J tssignodeplpeak5 batch_script.sh
+#bsub -q cmscaf1nw -J tssignodeplpeak6 batch_script.sh
+#bsub -q cmscaf1nw -J tssignodeplpeak7 batch_script.sh
+#bsub -q cmscaf1nw -J tssignodeplpeak8 batch_script.sh
+#bsub -q cmscaf1nw -J tssignodeplpeak9 batch_script.sh
+#bsub -q cmscaf1nw -J tssignodeplpeak10 batch_script.sh
+#bsub -q cmscaf1nw -J tssignodeplpeak11 batch_script.sh
+
+#bsub -q cmscaf1nw -J tssigdeltadeco0 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltadeco1 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltadeco2 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltadeco3 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltadeco4 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltadeco5 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltadeco6 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltadeco7 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltadeco8 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltadeco9 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltadeco10 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltadeco11 batch_script.sh
+
+#bsub -q cmscaf1nw -J tssigdeltapeak0 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltapeak1 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltapeak2 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltapeak3 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltapeak4 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltapeak5 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltapeak6 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltapeak7 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltapeak8 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltapeak9 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltapeak10 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltapeak11 batch_script.sh
+
+#bsub -q cmscaf1nw -J tssigdeltanodepldeco0 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltanodepldeco1 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltanodepldeco2 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltanodepldeco3 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltanodepldeco4 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltanodepldeco5 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltanodepldeco6 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltanodepldeco7 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltanodepldeco8 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltanodepldeco9 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltanodepldeco10 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltanodepldeco11 batch_script.sh
+
+#bsub -q cmscaf1nw -J tssigdeltanodeplpeak0 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltanodeplpeak1 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltanodeplpeak2 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltanodeplpeak3 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltanodeplpeak4 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltanodeplpeak5 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltanodeplpeak6 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltanodeplpeak7 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltanodeplpeak8 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltanodeplpeak9 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltanodeplpeak10 batch_script.sh
+#bsub -q cmscaf1nw -J tssigdeltanodeplpeak11 batch_script.sh
+
+bsub -q cmscaf1nw -J tssigalone10udeco0 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone10udeco1 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone10udeco2 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone10udeco3 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone10udeco4 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone10udeco5 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone10udeco6 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone10udeco7 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone10udeco8 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone10udeco9 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone10udeco10 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone10udeco11 batch_script.sh
+
+bsub -q cmscaf1nw -J tssigalone10upeak0 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone10upeak1 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone10upeak2 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone10upeak3 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone10upeak4 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone10upeak5 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone10upeak6 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone10upeak7 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone10upeak8 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone10upeak9 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone10upeak10 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone10upeak11 batch_script.sh
+
+bsub -q cmscaf1nw -J tssigalone1udeco0 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone1udeco1 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone1udeco2 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone1udeco3 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone1udeco4 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone1udeco5 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone1udeco6 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone1udeco7 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone1udeco8 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone1udeco9 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone1udeco10 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone1udeco11 batch_script.sh
+
+bsub -q cmscaf1nw -J tssigalone1upeak0 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone1upeak1 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone1upeak2 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone1upeak3 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone1upeak4 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone1upeak5 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone1upeak6 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone1upeak7 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone1upeak8 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone1upeak9 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone1upeak10 batch_script.sh
+bsub -q cmscaf1nw -J tssigalone1upeak11 batch_script.sh
+
